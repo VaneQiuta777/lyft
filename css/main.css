@@ -1,3 +1,62 @@
 /*
  * Estilos de tu proyecto
  */
+ body {
+    margin: 0 auto;
+}
+.container-background{
+    height: auto;
+    font-family: 'Montserrat',sans-serif;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(#76278F, #2B1E66);
+}
+.background-logo {
+    background-image: url("../assets/images/hero.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 400px;
+    position: relative;
+  }
+.container-form-logo{
+    height: auto;
+    width: 30%;
+    padding: 30px;
+    line-height: 1.5px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #fff;
+    color: #352384;
+    text-align: center;
+    outline: 1px solid yellow;
+    float: right;
+}
+.contact_form{
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    font-size:24px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border:  #fff;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=driver] {
+    width: 25%;
+    background-color: #ff00bf;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
