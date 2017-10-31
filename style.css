@@ -1,0 +1,214 @@
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+Author's custom styles
+========================================================================== */
+body{
+    margin:0px;
+    max-width:760px;
+}
+
+nav{
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 22px 131px 24px 0px;
+    background: linear-gradient(#76278F, #2B1E66);
+}
+
+
+.container_nav{
+    height: auto;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700px;
+    color:#fff;
+}
+
+.navbar_list{
+    width: 370px;
+    float: right;
+}
+
+.navbar_list_element{
+    display:inline;
+    text-decoration:none;
+    margin: 7px;
+    font-size: 18px;
+}
+
+li button{
+    text-decoration:none;
+}
+
+button{
+    background-color: #18bc9c;
+    padding: 8px;
+    color: #fff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    font-size:24px;
+    text-transform: capitalize;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+
+   ========================================================================== */
+/* ==========================================================================
+Header
+========================================================================== */
+
+.container-background{
+    height: auto;
+    font-family: 'Montserrat',sans-serif;
+    padding: 0;
+    width: 100%;
+    background: linear-gradient(#76278F, #2B1E66);
+}
+.background-logo {
+    background-image: url("../assets/images/hero.gif");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    height: 400px;
+    padding: 100px;
+    position: relative;
+  }
+.container-form-logo{
+    height: auto;
+    width: 40%;
+    padding: 30px;
+    line-height: 1.5px;
+    font-family: 'Montserrat',sans-serif;
+    background-color: #fff;
+    color: #352384;
+    text-align: center;
+    outline: 1px solid yellow;
+    float: right;
+}
+.contact_form{
+    text-align: center;
+    padding: 0px 200px 0px 200px;
+    font-size:24px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border:  #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+input[type=driver] {
+    width: 25%;
+    background-color: #ff00bf;
+    color: white;
+    padding: 20px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
